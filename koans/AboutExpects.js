@@ -17,7 +17,9 @@ describe("About Expects", function() {
   it("should assert equality a better way", function () {
     var expectedValue = FILL_ME_IN;
     var actualValue = 1 + 1;
+  });
 
+  
   // toEqual() compares using common sense equality.
     expect(actualValue).toEqual(expectedValue);
   });
